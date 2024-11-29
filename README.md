@@ -9,7 +9,7 @@
 I have successfully built the Todo List application following the specified requirements and criteria. Below is a summary of the completed task.
 
 ## Objective:
-The objective was to create a fully functional Todo List application using React, with CRUD (Create, Read, Update, Delete) capabilities. The app allows users to add, view, edit, delete, and toggle the status of todo items between "completed" and "pending".
+The objective was to create a fully functional Todo List application using Nextjs, with CRUD (Create, Read, Update, Delete) capabilities. The app allows users to add, view, edit, delete, and toggle the status of todo items between "completed" and "pending".
 
 ## Requirements Completion:
 
