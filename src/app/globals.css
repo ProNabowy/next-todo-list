@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+:root {
+  --primary-color: #265896;
+}
+
+.container {
+  padding: 0 10px;
+  margin: auto;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+label {
+  cursor: pointer;
+}
+
+.p-dialog {
+  max-width: 90%;
+  width: 500px;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+label {
+  @apply block font-medium mb-1;
+}
+
+input {
+  @apply border w-full p-3 rounded-sm transition focus:border-primary;
+}
+
+.row {
+  @apply line-clamp-1 min-w-[200px];
+}
